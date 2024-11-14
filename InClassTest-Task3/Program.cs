@@ -14,6 +14,8 @@ internal static class Program
             ("Problem 3", "InClassTest_Task3.Problems.Problem3")
         };
         string projectToRun = Ui.SelectMenu("Select a problem to run\n===============", problems);
+        Console.Clear();
+        Console.WriteLine($"Running {projectToRun}:\n");
         switch (projectToRun)
         {
             case "InClassTest_Task3.Problems.Problem1":
